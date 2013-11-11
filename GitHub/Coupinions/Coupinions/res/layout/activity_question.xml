@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/white"
+    tools:context=".QuestionActivity" >
+
+    <ImageView
+        android:id="@+id/imgLogoQuestion"
+        android:layout_width="218dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/logo_full_path" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/string_question"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/imgBtnA"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/red_button"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/string_optionA"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imgBtnB"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/green_button"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/string_optionB"
+        android:textSize="25sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/imgBtnC"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/yellow_button"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/string_optionC"
+        android:textSize="25sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/imgBtnD"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left"
+        android:background="@drawable/blue_button"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="@string/string_optionD"
+        android:textSize="25sp"
+        android:textColor="@color/white" />
+
+</LinearLayout>
